@@ -1,1 +1,137 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+    }
+    
+/* general style */
+html {
+    font-size: 62.5%;
+    max-width:100%;
+}
+
+* {
+    border: 1px solid gray;
+}
+
+body {  
+    box-sizing:border-box;
+    color: #4F4F4F;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    width:100%;
+    height:10vh;
+    background-color:rgb(30, 33, 45, .8);
+}
+
+nav .icon {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    width:11%
+}
+
+.icon i {
+    font-size:4rem;
+    color:rgb(250, 243, 224, .8);
+}
+
+.icon h2 {
+    font-size: 4rem;
+    color: rgb(250, 243, 224, .8);
+}
+
+.links {
+    width:40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links a {
+    font-size: 2.5rem;
+    background-color: rgb(250, 243, 224, .8);
+    height: 30%;
+    padding: 2%;
+    border-radius: 11%;
+}
+
+
+
+/* section1 */
+
+#section1 {
+    display:flex;
+    justify-content: center;
+    background-color:#faf3e0;
+   
+}
+
+.background-img {
+    margin-top: 10vh;
+    background-image: url(https://picsum.photos/600/300?grayscale);
+    width: 80%;
+    height: 50vh;
+    /* background-sizer; */
+    background-repeat:no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+
+
+
+}
+
+/* section2 */
+
+/* footer */
