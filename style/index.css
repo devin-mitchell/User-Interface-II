@@ -48,7 +48,9 @@ html {
 }
 
 * {
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
+    
+    font-family: 'Spartan', sans-serif;
 }
 
 body {  
@@ -63,6 +65,7 @@ a {
 /* header */
 
 header nav{
+    font-family: 'Raleway Dots', cursive;
     display: flex;
     justify-content: space-between;
     position:fixed;
@@ -96,6 +99,7 @@ nav .icon {
 }
 
 .links a {
+    color:black;
     font-size: 2.5rem;
     background-color: rgb(250, 243, 224, .8);
     height: 30%;
@@ -127,11 +131,48 @@ nav .icon {
     flex-direction:column;
     justify-content: center;
     align-items:center;
+}
 
-
+.background-img h1 {
+    color:black;
+    background-color: rgb(250, 243, 224, .5);
+    font-size:7rem;
+    border-radius:20px;
+    margin-bottom: 2%;
 
 }
 
+.background-img a {
+    color: black;
+    background-color: rgb(250, 243, 224, .5);
+    font-size:3rem;
+    border-radius:20px;
+}
+
 /* section2 */
+#section2 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width:100%;
+    background-color: #faf3e0;
+}
+
+#section2 div {
+    width: 26%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top:3%;
+}
+
+h3 {
+    /* background-color:rgb(30, 33, 45, .8) */
+    margin-top:2.5%;
+    font-size:1rem;
+}
+
+
+
 
 /* footer */
