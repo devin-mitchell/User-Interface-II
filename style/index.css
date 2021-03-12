@@ -134,6 +134,8 @@ nav .icon {
 }
 
 .background-img h1 {
+    width:100%;
+    padding: 2.5% 2.5% 1% 2.5%;
     color:black;
     background-color: rgb(250, 243, 224, .5);
     font-size:7rem;
@@ -142,11 +144,19 @@ nav .icon {
 
 }
 
+.subText {
+    width:100%;
+    height:15%;
+    display:flex;
+    justify-content: center;
+}
+
 .background-img a {
     color: black;
     background-color: rgb(250, 243, 224, .5);
-    font-size:3rem;
+    font-size:3.5rem;
     border-radius:20px;
+    padding: 1% 1% 0 1%;
 }
 
 /* section2 */
