@@ -1,1 +1,238 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+    }
+    
+/* general style */
+html {
+    font-size: 62.5%;
+    max-width:100%;
+}
+
+* {
+    /* border: 1px solid gray; */
+    
+    font-family: 'Spartan', sans-serif;
+}
+
+body {  
+    box-sizing:border-box;
+    color: #4F4F4F;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+header nav{
+    font-family: 'Raleway Dots', cursive;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    width:100%;
+    height:10vh;
+    background-color:rgb(30, 33, 45, .8);
+}
+
+nav .icon {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    width:11%
+}
+
+.icon i {
+    font-size:4rem;
+    color:rgb(250, 243, 224, .8);
+}
+
+.icon h2 {
+    font-size: 4rem;
+    color: rgb(250, 243, 224, .8);
+}
+
+.links {
+    width:40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links a {
+    color:black;
+    font-size: 2.5rem;
+    background-color: rgb(250, 243, 224, .8);
+    height: 30%;
+    padding: 2%;
+    border-radius: 11%;
+}
+
+
+
+/* section1 */
+
+#section1 {
+    display:flex;
+    justify-content: center;
+    background-color:#faf3e0;
+   
+}
+
+.background-img {
+    margin-top: 10vh;
+    background-image: url(https://picsum.photos/600/300?grayscale);
+    width: 80%;
+    height: 50vh;
+    /* background-sizer; */
+    background-repeat:no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.background-img h1 {
+    width:100%;
+    padding: 2.5% 2.5% 1% 2.5%;
+    color:black;
+    background-color: rgb(250, 243, 224, .5);
+    font-size:7rem;
+    border-radius:20px;
+    margin-bottom: 2%;
+
+}
+
+.subText {
+    width:100%;
+    height:15%;
+    display:flex;
+    justify-content: center;
+}
+
+.background-img a {
+    color: black;
+    background-color: rgb(250, 243, 224, .5);
+    font-size:3.5rem;
+    border-radius:20px;
+    padding: 1% 1% 0 1%;
+}
+
+/* section2 */
+#section2 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width:100%;
+    background-color: #faf3e0;
+    padding:10% 0;
+}
+
+#section2 div {
+    width: 26%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top:3%;
+}
+
+h3 {
+    /* background-color:rgb(30, 33, 45, .8) */
+    margin-top:2.5%;
+    font-size:1rem;
+}
+
+
+
+
+/* footer */
+footer{
+    height: 17vh;
+    width:100%;
+    background-color: rgb(30, 33, 45);
+    
+}
+
+footer nav {
+    height:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social {
+    width:33%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.social a {
+    font-size:5rem;
+    color:#faf3e0;
+}
+
+footer .links {
+    width:33%;
+    margin-left:28%;
+}
+
+
+
+/* about */
+
+.about {
+    background-color: #faf3e0;
+    /* margin:40px 0; */
+    height: 80vh;
+}
+.contact {
+    background-color: #faf3e0;
+    /* margin:40px 0; */
+    height: 80vh;
+}
+.projects {
+    background-color: #faf3e0;
+    /* margin:40px 0; */
+    height: 80vh;
+}
