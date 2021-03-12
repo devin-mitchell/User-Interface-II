@@ -156,6 +156,7 @@ nav .icon {
     justify-content:space-evenly;
     width:100%;
     background-color: #faf3e0;
+    padding:10% 0;
 }
 
 #section2 div {
@@ -176,3 +177,35 @@ h3 {
 
 
 /* footer */
+footer{
+    height: 17vh;
+    width:100%;
+    background-color: rgb(30, 33, 45);
+    
+}
+
+footer nav {
+    height:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social {
+    width:33%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.social a {
+    font-size:5rem;
+    color:#faf3e0;
+}
+
+footer .links {
+    width:33%;
+    margin-left:28%;
+}
+
+
+
