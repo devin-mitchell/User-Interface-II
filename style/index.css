@@ -65,6 +65,7 @@ a {
 /* header */
 
 header nav{
+    z-index: 999;
     font-family: 'Raleway Dots', cursive;
     display: flex;
     justify-content: space-between;
@@ -326,5 +327,4 @@ footer .links {
         width: 60%;
         justify-content: space-between;
     }
-
 }
